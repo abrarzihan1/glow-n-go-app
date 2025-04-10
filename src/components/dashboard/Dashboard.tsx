@@ -20,7 +20,7 @@ export default function Dashboard() {
             rating: 4.8,
             reviews: 124,
             available: true,
-            image: '/images/downtown.jpg'
+            image: './images/downtown.jpg'
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ export default function Dashboard() {
             rating: 4.6,
             reviews: 89,
             available: true,
-            image: '/images/fitness.jpg'
+            image: './images/fitness.jpg'
         }
     ];
 
@@ -41,7 +41,7 @@ export default function Dashboard() {
             location: 'Downtown Center',
             date: 'Today',
             time: '3:30 PM',
-            image: '/images/makeup_refresh.jpg'
+            image: './images/makeup_refresh.jpg'
         }
     ];
 
@@ -50,13 +50,13 @@ export default function Dashboard() {
             id: 201,
             title: '5-Minute Office Makeup Touch-up',
             views: '2.4k',
-            image: '/images/makeup_5_minutes.jpg'
+            image: './images/makeup_5_minutes.jpg'
         },
         {
             id: 202,
             title: 'Quick Hair Fixes for Busy Days',
             views: '1.8k',
-            image: '/images/makeup_refresh.jpg'
+            image: './images/makeup_refresh.jpg'
         }
     ];
 

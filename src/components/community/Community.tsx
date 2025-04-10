@@ -34,11 +34,11 @@ export default function Community() {
             user: {
                 name: "Jessica T.",
                 username: "@jess_glow",
-                avatar: "/images/woman1.jpg",
+                avatar: "./images/woman1.jpg",
                 followers: "2.3k"
             },
             content: "Just tried the 5-minute makeup kiosk at Downtown Center! Perfect for my lunch break touch-up ✨",
-            images: ["/images/linh-ha-nt6KRD9im7A-unsplash.jpg"],
+            images: ["./images/linh-ha-nt6KRD9im7A-unsplash.jpg"],
             timeAgo: "35m",
             likes: 42,
             comments: [
@@ -46,7 +46,7 @@ export default function Community() {
                     id: 101,
                     user: {
                         name: "Michelle",
-                        avatar: "/images/profile.png",
+                        avatar: "./images/profile.png",
                         verified: false
                     },
                     content: "Looks amazing! Which products did you use?",
@@ -72,7 +72,7 @@ export default function Community() {
             user: {
                 name: "Beauty Pro Ava",
                 username: "@ava_mua",
-                avatar: "/images/profile.png",
+                avatar: "./images/profile.png",
                 followers: "12.5k",
                 verified: true
             },
@@ -89,7 +89,7 @@ export default function Community() {
                     id: 201,
                     user: {
                         name: "Sarah",
-                        avatar: "/images/profile.png",
+                        avatar: "./images/profile.png",
                         verified: false
                     },
                     content: "This is so helpful! Would you recommend the matte or dewy finish?",
@@ -104,7 +104,7 @@ export default function Community() {
             user: {
                 name: "Mark J.",
                 username: "@mark_j",
-                avatar: "/images/profile.png",
+                avatar: "./images/profile.png",
                 followers: "456"
             },
             content: "Question for the community: How do you clean your face before using the kiosks? I want to ensure I'm getting the best results.",
@@ -115,7 +115,7 @@ export default function Community() {
                     id: 301,
                     user: {
                         name: "Skincare Expert",
-                        avatar: "/images/profile.png",
+                        avatar: "./images/profile.png",
                         verified: true
                     },
                     content: "Great question! Try using the complimentary cleansing wipes available at each kiosk stand.",

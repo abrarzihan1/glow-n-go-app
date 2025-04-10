@@ -7,8 +7,8 @@ function App() {
     return (
         <HashRouter>
             <Routes>
-                <Route path="/" element={<Dashboard />} />
-                <Route path={"/community"} element={<Community/>} />
+                <Route path="" element={<Dashboard />} />
+                <Route path={"community"} element={<Community/>} />
             </Routes>
         </HashRouter>
     );
